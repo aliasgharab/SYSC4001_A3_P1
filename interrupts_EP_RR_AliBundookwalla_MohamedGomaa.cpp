@@ -1,10 +1,3 @@
-/**
- * @file interrupts.cpp
- * @author Sasisekhar Govind
- * @brief template main.cpp file for Assignment 3 Part 1 of SYSC4001
- * 
- */
-
 #include <interrupts_AliBundookwalla_MohamedGomaa.hpp>
 
 void ExternalPriority(std::vector<PCB> &ready_queue) {
@@ -91,9 +84,9 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
             ++it;
         }     
 
-        // 2. Retry memory allocation for processes waiting for memory
+        //Retry memory allocation for processes waiting for memory
         for(auto it = list_processes.begin(); it != list_processes.end(); ) {
-            if(it->arrival_time <= current_time) {  // Process has already arrived
+            if(it->arrival_time <= current_time) {
                 if(assign_memory(*it)) {
                     // Memory now available, add to ready queue
                     it->state = READY;
@@ -113,7 +106,7 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
         //////////////////////////SCHEDULER//////////////////////////////
         // If CPU is idle and ready queue has processes, schedule one
         if(running.PID == -1 && !ready_queue.empty()) {
-            ExternalPriority(ready_queue); // Sort by priority
+            ExternalPriority(ready_queue);
             running = ready_queue.front();
             ready_queue.erase(ready_queue.begin());
             running.start_time = current_time;
@@ -155,13 +148,13 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
 
             // Check if higher priority process arrived (preemption)
             else if(!ready_queue.empty()) {
-                ExternalPriority(ready_queue); // Sort to find highest priority
+                ExternalPriority(ready_queue); 
                 PCB& highest_priority = ready_queue.back();
                 if(highest_priority.PID < running.PID) { // Lower number = higher priority
                     // Preempt current process
                     execution_status += print_exec_status(current_time, running.PID, RUNNING, READY);
                     running.state = READY;
-                    running.time_slice = 100; // Reset quantum
+                    running.time_slice = 100;
                     ready_queue.push_back(running);
                     sync_queue(job_list, running);
                     idle_CPU(running);

@@ -91,9 +91,9 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
             ++it;
         }  
         
-        // 2. Retry memory allocation for processes waiting for memory
+        // Retry memory allocation for processes waiting for memory
         for(auto it = list_processes.begin(); it != list_processes.end(); ) {
-            if(it->arrival_time <= current_time) {  // Process has already arrived
+            if(it->arrival_time <= current_time) { 
                 if(assign_memory(*it)) {
                     // Memory now available, add to ready queue
                     it->state = READY;
@@ -113,7 +113,7 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
         //////////////////////////SCHEDULER//////////////////////////////
         // If CPU is idle and ready queue has processes, schedule one
         if(running.PID == -1 && !ready_queue.empty()) {
-            ExternalPriority(ready_queue); // Sort by priority
+            ExternalPriority(ready_queue);
             running = ready_queue.front();
             ready_queue.erase(ready_queue.begin());
             running.start_time = current_time;
@@ -141,7 +141,6 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
                 sync_queue(job_list, running);
                 idle_CPU(running);
             }
-            // NO TIME QUANTUM CHECK (non-preemptive)
         }
         ///////////////////////////////////////////////////////////////
                 

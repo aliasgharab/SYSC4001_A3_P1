@@ -1,10 +1,3 @@
-/**
- * @file interrupts.cpp
- * @author Sasisekhar Govind
- * @brief template main.cpp file for Assignment 3 Part 1 of SYSC4001
- * 
- */
-
 #include <interrupts_AliBundookwalla_MohamedGomaa.hpp>
 
 void FCFS(std::vector<PCB> &ready_queue) {
@@ -87,11 +80,11 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes) {
             ++it;
         }     
 
-        // 2. Retry memory allocation for processes waiting for memory
+        // Retry memory allocation for processes waiting for memory
         for(auto it = list_processes.begin(); it != list_processes.end(); ) {
-            if(it->arrival_time <= current_time) {  // Process has already arrived
+            if(it->arrival_time <= current_time) {
                 if(assign_memory(*it)) {
-                    // Memory now available, add to ready queue
+                    // Memory now available, add to queue
                     it->state = READY;
                     it->time_slice = 100;
                     it->remaining_io_time = 0;
