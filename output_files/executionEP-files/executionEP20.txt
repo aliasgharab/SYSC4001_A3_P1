@@ -1,0 +1,79 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|               342 |  1 |       NEW |     READY |
+|               342 |  1 |     READY |   RUNNING |
+|              1540 |  2 |       NEW |     READY |
+|              1595 |  1 |   RUNNING |   WAITING |
+|              1596 |  2 |     READY |   RUNNING |
+|              1792 |  1 |   WAITING |     READY |
+|              2435 |  3 |       NEW |     READY |
+|              2589 |  4 |       NEW |     READY |
+|              3115 |  6 |       NEW |     READY |
+|              4836 |  2 |   RUNNING |   WAITING |
+|              4837 |  1 |     READY |   RUNNING |
+|              4921 |  2 |   WAITING |     READY |
+|              6090 |  1 |   RUNNING |   WAITING |
+|              6091 |  2 |     READY |   RUNNING |
+|              6287 |  1 |   WAITING |     READY |
+|              9331 |  2 |   RUNNING |   WAITING |
+|              9332 |  1 |     READY |   RUNNING |
+|              9416 |  2 |   WAITING |     READY |
+|             10585 |  1 |   RUNNING |   WAITING |
+|             10586 |  2 |     READY |   RUNNING |
+|             10782 |  1 |   WAITING |     READY |
+|             13826 |  2 |   RUNNING |   WAITING |
+|             13827 |  1 |     READY |   RUNNING |
+|             13911 |  2 |   WAITING |     READY |
+|             14733 |  1 |   RUNNING |TERMINATED |
+|             14734 |  2 |     READY |   RUNNING |
+|             16382 |  2 |   RUNNING |TERMINATED |
+|             16383 |  7 |       NEW |     READY |
+|             16383 |  3 |     READY |   RUNNING |
+|             19698 |  3 |   RUNNING |   WAITING |
+|             19699 |  4 |     READY |   RUNNING |
+|             19872 |  3 |   WAITING |     READY |
+|             22877 |  4 |   RUNNING |   WAITING |
+|             22878 |  3 |     READY |   RUNNING |
+|             22996 |  4 |   WAITING |     READY |
+|             24043 |  3 |   RUNNING |TERMINATED |
+|             24044 |  4 |     READY |   RUNNING |
+|             27222 |  4 |   RUNNING |   WAITING |
+|             27223 |  6 |     READY |   RUNNING |
+|             27341 |  4 |   WAITING |     READY |
+|             30565 |  6 |   RUNNING |   WAITING |
+|             30566 |  4 |     READY |   RUNNING |
+|             30703 |  6 |   WAITING |     READY |
+|             33744 |  4 |   RUNNING |   WAITING |
+|             33745 |  6 |     READY |   RUNNING |
+|             33863 |  4 |   WAITING |     READY |
+|             37087 |  6 |   RUNNING |   WAITING |
+|             37088 |  4 |     READY |   RUNNING |
+|             37155 |  4 |   RUNNING |TERMINATED |
+|             37156 |  5 |       NEW |     READY |
+|             37156 |  5 |     READY |   RUNNING |
+|             37225 |  6 |   WAITING |     READY |
+|             40328 |  5 |   RUNNING |   WAITING |
+|             40329 |  6 |     READY |   RUNNING |
+|             40435 |  5 |   WAITING |     READY |
+|             42728 |  6 |   RUNNING |TERMINATED |
+|             42729 |  5 |     READY |   RUNNING |
+|             44189 |  5 |   RUNNING |TERMINATED |
+|             44190 |  7 |     READY |   RUNNING |
+|             46403 |  7 |   RUNNING |   WAITING |
+|             46618 |  7 |   WAITING |     READY |
+|             46618 |  7 |     READY |   RUNNING |
+|             48831 |  7 |   RUNNING |   WAITING |
+|             49046 |  7 |   WAITING |     READY |
+|             49046 |  7 |     READY |   RUNNING |
+|             51259 |  7 |   RUNNING |   WAITING |
+|             51474 |  7 |   WAITING |     READY |
+|             51474 |  7 |     READY |   RUNNING |
+|             53687 |  7 |   RUNNING |   WAITING |
+|             53902 |  7 |   WAITING |     READY |
+|             53902 |  7 |     READY |   RUNNING |
+|             56115 |  7 |   RUNNING |   WAITING |
+|             56330 |  7 |   WAITING |     READY |
+|             56330 |  7 |     READY |   RUNNING |
+|             57688 |  7 |   RUNNING |TERMINATED |
++------------------------------------------------+

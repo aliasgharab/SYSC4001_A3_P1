@@ -1,0 +1,35 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|              1084 |  1 |       NEW |     READY |
+|              1084 |  1 |     READY |   RUNNING |
+|              1614 |  2 |       NEW |     READY |
+|              1688 |  1 |   RUNNING |   WAITING |
+|              1689 |  2 |     READY |   RUNNING |
+|              1779 |  1 |   WAITING |     READY |
+|              1779 |  2 |   RUNNING |     READY |
+|              1780 |  1 |     READY |   RUNNING |
+|              2384 |  1 |   RUNNING |   WAITING |
+|              2385 |  2 |     READY |   RUNNING |
+|              2475 |  1 |   WAITING |     READY |
+|              2475 |  2 |   RUNNING |     READY |
+|              2476 |  1 |     READY |   RUNNING |
+|              3080 |  1 |   RUNNING |   WAITING |
+|              3081 |  2 |     READY |   RUNNING |
+|              3171 |  1 |   WAITING |     READY |
+|              3171 |  2 |   RUNNING |     READY |
+|              3172 |  1 |     READY |   RUNNING |
+|              3776 |  1 |   RUNNING |   WAITING |
+|              3777 |  2 |     READY |   RUNNING |
+|              3867 |  1 |   WAITING |     READY |
+|              3867 |  2 |   RUNNING |     READY |
+|              3868 |  1 |     READY |   RUNNING |
+|              4472 |  1 |   RUNNING |   WAITING |
+|              4473 |  2 |     READY |   RUNNING |
+|              4563 |  1 |   WAITING |     READY |
+|              4563 |  2 |   RUNNING |     READY |
+|              4564 |  1 |     READY |   RUNNING |
+|              4953 |  1 |   RUNNING |TERMINATED |
+|              4954 |  2 |     READY |   RUNNING |
+|              8300 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+

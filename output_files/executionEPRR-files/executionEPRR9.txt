@@ -1,0 +1,31 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|               548 |  1 |       NEW |     READY |
+|               548 |  1 |     READY |   RUNNING |
+|              1117 |  2 |       NEW |     READY |
+|              4783 |  1 |   RUNNING |   WAITING |
+|              4784 |  2 |     READY |   RUNNING |
+|              4842 |  1 |   WAITING |     READY |
+|              4842 |  2 |   RUNNING |     READY |
+|              4843 |  1 |     READY |   RUNNING |
+|              9078 |  1 |   RUNNING |   WAITING |
+|              9079 |  2 |     READY |   RUNNING |
+|              9137 |  1 |   WAITING |     READY |
+|              9137 |  2 |   RUNNING |     READY |
+|              9138 |  1 |     READY |   RUNNING |
+|             13373 |  1 |   RUNNING |   WAITING |
+|             13374 |  2 |     READY |   RUNNING |
+|             13432 |  1 |   WAITING |     READY |
+|             13432 |  2 |   RUNNING |     READY |
+|             13433 |  1 |     READY |   RUNNING |
+|             16277 |  1 |   RUNNING |TERMINATED |
+|             16278 |  2 |     READY |   RUNNING |
+|             21458 |  2 |   RUNNING |   WAITING |
+|             21509 |  2 |   WAITING |     READY |
+|             21509 |  2 |     READY |   RUNNING |
+|             26866 |  2 |   RUNNING |   WAITING |
+|             26917 |  2 |   WAITING |     READY |
+|             26917 |  2 |     READY |   RUNNING |
+|             27565 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+

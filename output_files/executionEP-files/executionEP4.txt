@@ -1,0 +1,76 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|               861 |  1 |       NEW |     READY |
+|               861 |  1 |     READY |   RUNNING |
+|               895 |  2 |       NEW |     READY |
+|              1220 |  1 |   RUNNING |   WAITING |
+|              1221 |  2 |     READY |   RUNNING |
+|              1313 |  1 |   WAITING |     READY |
+|              1575 |  2 |   RUNNING |   WAITING |
+|              1576 |  1 |     READY |   RUNNING |
+|              1667 |  2 |   WAITING |     READY |
+|              1935 |  1 |   RUNNING |   WAITING |
+|              1936 |  2 |     READY |   RUNNING |
+|              2028 |  1 |   WAITING |     READY |
+|              2290 |  2 |   RUNNING |   WAITING |
+|              2291 |  1 |     READY |   RUNNING |
+|              2382 |  2 |   WAITING |     READY |
+|              2650 |  1 |   RUNNING |   WAITING |
+|              2651 |  2 |     READY |   RUNNING |
+|              2743 |  1 |   WAITING |     READY |
+|              3005 |  2 |   RUNNING |   WAITING |
+|              3006 |  1 |     READY |   RUNNING |
+|              3097 |  2 |   WAITING |     READY |
+|              3365 |  1 |   RUNNING |   WAITING |
+|              3366 |  2 |     READY |   RUNNING |
+|              3458 |  1 |   WAITING |     READY |
+|              3720 |  2 |   RUNNING |   WAITING |
+|              3721 |  1 |     READY |   RUNNING |
+|              3812 |  2 |   WAITING |     READY |
+|              4080 |  1 |   RUNNING |   WAITING |
+|              4081 |  2 |     READY |   RUNNING |
+|              4173 |  1 |   WAITING |     READY |
+|              4435 |  2 |   RUNNING |   WAITING |
+|              4436 |  1 |     READY |   RUNNING |
+|              4527 |  2 |   WAITING |     READY |
+|              4795 |  1 |   RUNNING |   WAITING |
+|              4796 |  2 |     READY |   RUNNING |
+|              4888 |  1 |   WAITING |     READY |
+|              5150 |  2 |   RUNNING |   WAITING |
+|              5151 |  1 |     READY |   RUNNING |
+|              5242 |  2 |   WAITING |     READY |
+|              5510 |  1 |   RUNNING |   WAITING |
+|              5511 |  2 |     READY |   RUNNING |
+|              5603 |  1 |   WAITING |     READY |
+|              5865 |  2 |   RUNNING |   WAITING |
+|              5866 |  1 |     READY |   RUNNING |
+|              5957 |  2 |   WAITING |     READY |
+|              6225 |  1 |   RUNNING |   WAITING |
+|              6226 |  2 |     READY |   RUNNING |
+|              6318 |  1 |   WAITING |     READY |
+|              6580 |  2 |   RUNNING |   WAITING |
+|              6581 |  1 |     READY |   RUNNING |
+|              6672 |  2 |   WAITING |     READY |
+|              6940 |  1 |   RUNNING |   WAITING |
+|              6941 |  2 |     READY |   RUNNING |
+|              7033 |  1 |   WAITING |     READY |
+|              7295 |  2 |   RUNNING |   WAITING |
+|              7296 |  1 |     READY |   RUNNING |
+|              7387 |  2 |   WAITING |     READY |
+|              7427 |  1 |   RUNNING |TERMINATED |
+|              7428 |  2 |     READY |   RUNNING |
+|              7782 |  2 |   RUNNING |   WAITING |
+|              7874 |  2 |   WAITING |     READY |
+|              7874 |  2 |     READY |   RUNNING |
+|              8228 |  2 |   RUNNING |   WAITING |
+|              8320 |  2 |   WAITING |     READY |
+|              8320 |  2 |     READY |   RUNNING |
+|              8674 |  2 |   RUNNING |   WAITING |
+|              8766 |  2 |   WAITING |     READY |
+|              8766 |  2 |     READY |   RUNNING |
+|              9120 |  2 |   RUNNING |   WAITING |
+|              9212 |  2 |   WAITING |     READY |
+|              9212 |  2 |     READY |   RUNNING |
+|              9325 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+

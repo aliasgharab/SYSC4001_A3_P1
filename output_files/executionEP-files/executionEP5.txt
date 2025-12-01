@@ -1,0 +1,52 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|               580 |  1 |       NEW |     READY |
+|               580 |  1 |     READY |   RUNNING |
+|              1068 |  1 |   RUNNING |   WAITING |
+|              1215 |  1 |   WAITING |     READY |
+|              1215 |  1 |     READY |   RUNNING |
+|              1238 |  2 |       NEW |     READY |
+|              1703 |  1 |   RUNNING |   WAITING |
+|              1704 |  2 |     READY |   RUNNING |
+|              1850 |  1 |   WAITING |     READY |
+|              2187 |  2 |   RUNNING |   WAITING |
+|              2188 |  1 |     READY |   RUNNING |
+|              2343 |  2 |   WAITING |     READY |
+|              2676 |  1 |   RUNNING |   WAITING |
+|              2677 |  2 |     READY |   RUNNING |
+|              2823 |  1 |   WAITING |     READY |
+|              3160 |  2 |   RUNNING |   WAITING |
+|              3161 |  1 |     READY |   RUNNING |
+|              3316 |  2 |   WAITING |     READY |
+|              3649 |  1 |   RUNNING |   WAITING |
+|              3650 |  2 |     READY |   RUNNING |
+|              3796 |  1 |   WAITING |     READY |
+|              4133 |  2 |   RUNNING |   WAITING |
+|              4134 |  1 |     READY |   RUNNING |
+|              4269 |  1 |   RUNNING |TERMINATED |
+|              4289 |  2 |   WAITING |     READY |
+|              4289 |  2 |     READY |   RUNNING |
+|              4772 |  2 |   RUNNING |   WAITING |
+|              4928 |  2 |   WAITING |     READY |
+|              4928 |  2 |     READY |   RUNNING |
+|              5411 |  2 |   RUNNING |   WAITING |
+|              5567 |  2 |   WAITING |     READY |
+|              5567 |  2 |     READY |   RUNNING |
+|              6050 |  2 |   RUNNING |   WAITING |
+|              6206 |  2 |   WAITING |     READY |
+|              6206 |  2 |     READY |   RUNNING |
+|              6689 |  2 |   RUNNING |   WAITING |
+|              6845 |  2 |   WAITING |     READY |
+|              6845 |  2 |     READY |   RUNNING |
+|              7328 |  2 |   RUNNING |   WAITING |
+|              7484 |  2 |   WAITING |     READY |
+|              7484 |  2 |     READY |   RUNNING |
+|              7967 |  2 |   RUNNING |   WAITING |
+|              8123 |  2 |   WAITING |     READY |
+|              8123 |  2 |     READY |   RUNNING |
+|              8606 |  2 |   RUNNING |   WAITING |
+|              8762 |  2 |   WAITING |     READY |
+|              8762 |  2 |     READY |   RUNNING |
+|              9106 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+

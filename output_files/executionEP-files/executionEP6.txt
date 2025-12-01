@@ -1,0 +1,55 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|               924 |  1 |       NEW |     READY |
+|               924 |  1 |     READY |   RUNNING |
+|              1776 |  2 |       NEW |     READY |
+|              1867 |  3 |       NEW |     READY |
+|              2835 |  5 |       NEW |     READY |
+|              5983 |  1 |   RUNNING |   WAITING |
+|              5984 |  2 |     READY |   RUNNING |
+|              6131 |  1 |   WAITING |     READY |
+|              8977 |  2 |   RUNNING |   WAITING |
+|              8978 |  1 |     READY |   RUNNING |
+|              9089 |  2 |   WAITING |     READY |
+|             14037 |  1 |   RUNNING |   WAITING |
+|             14038 |  2 |     READY |   RUNNING |
+|             14185 |  1 |   WAITING |     READY |
+|             17031 |  2 |   RUNNING |   WAITING |
+|             17032 |  1 |     READY |   RUNNING |
+|             17143 |  2 |   WAITING |     READY |
+|             21077 |  1 |   RUNNING |TERMINATED |
+|             21078 |  4 |       NEW |     READY |
+|             21078 |  2 |     READY |   RUNNING |
+|             23119 |  2 |   RUNNING |TERMINATED |
+|             23120 |  3 |     READY |   RUNNING |
+|             28248 |  3 |   RUNNING |   WAITING |
+|             28249 |  4 |     READY |   RUNNING |
+|             28341 |  3 |   WAITING |     READY |
+|             30635 |  4 |   RUNNING |   WAITING |
+|             30636 |  3 |     READY |   RUNNING |
+|             30762 |  4 |   WAITING |     READY |
+|             35764 |  3 |   RUNNING |   WAITING |
+|             35765 |  4 |     READY |   RUNNING |
+|             35857 |  3 |   WAITING |     READY |
+|             38151 |  4 |   RUNNING |   WAITING |
+|             38152 |  3 |     READY |   RUNNING |
+|             38278 |  4 |   WAITING |     READY |
+|             38605 |  3 |   RUNNING |TERMINATED |
+|             38606 |  4 |     READY |   RUNNING |
+|             40992 |  4 |   RUNNING |   WAITING |
+|             40993 |  5 |     READY |   RUNNING |
+|             41119 |  4 |   WAITING |     READY |
+|             44081 |  5 |   RUNNING |   WAITING |
+|             44082 |  4 |     READY |   RUNNING |
+|             44133 |  5 |   WAITING |     READY |
+|             46468 |  4 |   RUNNING |   WAITING |
+|             46469 |  5 |     READY |   RUNNING |
+|             46595 |  4 |   WAITING |     READY |
+|             49557 |  5 |   RUNNING |   WAITING |
+|             49558 |  4 |     READY |   RUNNING |
+|             49609 |  5 |   WAITING |     READY |
+|             49916 |  4 |   RUNNING |TERMINATED |
+|             49917 |  5 |     READY |   RUNNING |
+|             51525 |  5 |   RUNNING |TERMINATED |
++------------------------------------------------+
